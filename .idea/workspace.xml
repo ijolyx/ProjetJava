@@ -1,7 +1,166 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ea690dc-cda3-4d58-a422-70fcdce2829c" name="Default" comment="" />
+    <list default="true" id="6ea690dc-cda3-4d58-a422-70fcdce2829c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controllerMain/FtnController.java" afterPath="$PROJECT_DIR$/src/main/java/controllerMain/FtnController.java" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT.war" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/controllerMain/FtnController.class" afterPath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/controllerMain/FtnController.class" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/CurrP10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/CurrP2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/CurrP9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Example.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kd.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kd_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kd__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kd___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kd____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kd_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kd______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kd_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kd________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kills.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kills_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kills__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kills___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kills____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kills_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kills______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kills_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kills________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kpg.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kpg_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kpg__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kpg___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kpg____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kpg_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kpg______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kpg_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Kpg________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/LifeTimeStat.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Matches.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Matches_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Matches__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Matches___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Matches____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Matches_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Matches______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Matches_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Matches________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/P10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/P2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/P9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/PriorP10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/PriorP2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/PriorP9.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/RecentMatch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Score.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/ScorePerMatch.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/ScorePerMatch_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/ScorePerMatch__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/ScorePerMatch___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/ScorePerMatch____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/ScorePerMatch_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/ScorePerMatch______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/ScorePerMatch_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/ScorePerMatch________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Score_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Score__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Score___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Score____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Score_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Score______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Score_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Score________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Stats.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top10.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top10_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top10__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top10___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top10____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top10_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top10______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top10_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top10________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top12.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top12_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top12__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top12___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top12____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top12_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top12______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top12_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top12________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top1_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top1__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top1___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top1____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top1_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top1______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top1_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top1________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top25.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top25_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top25__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top25___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top25____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top25_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top25______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top25_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top25________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top3.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top3_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top3__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top3___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top3____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top3_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top3______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top3_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top3________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top5.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top5_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top5__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top5___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top5____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top5_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top5______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top5_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top5________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top6.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top6_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top6__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top6___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top6____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top6_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top6______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top6_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/Top6________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/TrnRating.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/TrnRating_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/TrnRating__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/TrnRating___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/TrnRating____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/TrnRating_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/TrnRating______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/TrnRating_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/TrnRating________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/WinRatio.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/WinRatio_.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/WinRatio__.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/WinRatio___.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/WinRatio____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/WinRatio_____.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/WinRatio______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/WinRatio_______.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/WinRatio________.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/PROJETJAVATUS-1.0-SNAPSHOT/WEB-INF/classes/model/testst.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controllerMain/FtnController.class" afterPath="$PROJECT_DIR$/target/classes/controllerMain/FtnController.class" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,37 +170,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="testst.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/testst.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CurrP2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/CurrP2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrnRating.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/TrnRating.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -52,11 +181,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FtnController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FtnController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controllerMain/FtnController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testus.xsd" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/testus.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,6 +215,9 @@
       <find>acc</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
@@ -89,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -110,54 +252,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="PROJETJAVATUS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETJAVATUS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetJava" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PROJETJAVATUS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETJAVATUS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PROJETJAVATUS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETJAVATUS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PROJETJAVATUS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETJAVATUS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PROJETJAVATUS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETJAVATUS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="controllerMain" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="PROJETJAVATUS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PROJETJAVATUS" type="462c0819:PsiDirectoryNode" />
+              <item name="ProjetJava" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProjetJava" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,33 +416,33 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -318,38 +453,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/testst.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="false" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/CurrP2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/TrnRating.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllerMain/FtnController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
+          <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/FtnController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/testst.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/CurrP2.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/TrnRating.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Controller/FtnController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -362,6 +485,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/testus.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
