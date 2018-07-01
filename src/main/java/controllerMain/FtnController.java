@@ -78,7 +78,7 @@ URL url = null;
             }
             System.out.println("T OUU");
             System.out.println(content.toString());
-            // Gson g = new Gson();
+            
            // java.lang.reflect.Type collectionType = new TypeToken<Collection<WeatherPojo>>(){}.getType();
            // Collection<WeatherPojo> enums = g.fromJson(content.toString(), collectionType);
              
@@ -89,7 +89,29 @@ URL url = null;
             ObjectMapper objectMapper = new ObjectMapper();
             pj = objectMapper.readValue(content.toString(), WeatherPojo.class);
             
-            System.out.println(pj.getCoord().toString());
+            System.out.println(pj.getMain().getTemp());
+                    double celsius = Double.parseDouble(pj.getMain().getTemp());
+                     celsius = celsius - 273.15;
+                     int degres = (int) celsius;
+                     
+                     
+                     double celsiusMax = Double.parseDouble(pj.getMain().getTemp_max());
+                     celsiusMax = celsiusMax - 273.15;
+                     int degresMax = (int) celsiusMax;
+                     
+                     double celsiusMin = Double.parseDouble(pj.getMain().getTemp_min());
+                     celsiusMin = celsiusMin - 273.15;
+                     int degresMin = (int) celsiusMin;
+                     
+                     pj.getMain().setTemp(Integer.toString(degres));
+                     Gson g = new Gson();
+                     data = g.toJson(pj);
+                     System.out.println(g.toJson(pj));
+                     System.out.println("ici");
+                     
+                     
+                     
+            // data = pj.getMain().getTemp();
           //  data = objectMapper.writeValueAsString(pj);
             
             in.close();
