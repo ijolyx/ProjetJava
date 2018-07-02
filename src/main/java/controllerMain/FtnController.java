@@ -34,7 +34,7 @@ import model.WeatherPojo;
 public class FtnController extends HttpServlet{
 
 
-
+    
     @GET()    
     @Path("/{ville}")
     public String getFtnDatas(@PathParam("ville") String ville) {
@@ -104,6 +104,8 @@ URL url = null;
                      int degresMin = (int) celsiusMin;
                      
                      pj.getMain().setTemp(Integer.toString(degres));
+                     pj.getMain().setTemp_max(Integer.toString(degresMax));
+                     pj.getMain().setTemp_min(Integer.toString(degresMin));
                      Gson g = new Gson();
                      data = g.toJson(pj);
                      System.out.println(g.toJson(pj));
