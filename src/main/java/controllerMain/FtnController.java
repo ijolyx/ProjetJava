@@ -19,6 +19,7 @@ import java.io.InputStreamReader;
 import java.lang.ProcessBuilder.Redirect.Type;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
+import java.net.ProtocolException;
 import java.net.URI;
 import java.net.URL;
 import java.util.Collection;
@@ -42,27 +43,69 @@ public class FtnController extends HttpServlet{
         
 
 URL url = null;
-        HttpURLConnection con = null;
+       
         String data ="";
-        WeatherPojo  pj = null;
+        
         
         
         
             
     try {
-            url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" + ville + "   &appid=b934232a8f10ff55be66ab72e207331c");
+            url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" + ville + "&appid=b934232a8f10ff55be66ab72e207331c");
             
-            con = (HttpURLConnection) url.openConnection();
+            data = this.connexion(url);
+       
+            
+        } catch (MalformedURLException e) {
+            System.out.println("nani");
+        } catch (IOException e) {
+            System.out.println("wtff");
+        }
+     
+    
+return data;
+    }
+    
+    
+    
+    @GET
+    @Path("/id/{lat}"+ "&" + "{lon}")
+    public String getCoordWeather(@PathParam("lat") String lat, @PathParam("lon") String lon) {
+    
+        String data = "";
+            URL url = null;
+        try {
+            
+            
+            
+            url = new URL("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon="+ lon +"&appid=b934232a8f10ff55be66ab72e207331c");
+            data = this.connexion(url);
+        } catch (MalformedURLException ex) {
+            Logger.getLogger(FtnController.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(FtnController.class.getName()).log(Level.SEVERE, null, ex);
+        }
+         
+        
+        
+        System.out.println(data.toString());
+    
+    return data;
+    }
+    
+    
+    
+    private String connexion(URL url) throws IOException{
+    HttpURLConnection con = null;
+    WeatherPojo  pj = null;
+    String data = "";
+        con = (HttpURLConnection) url.openConnection();
+        
             con.setDoInput(true);
             con.setRequestMethod("GET");
-            
-         //   con.addRequestProperty("TRN-Api-Key", "e467882d-19ea-48c0-a588-0c8fb687927c");
-            
-            
-            
             con.setDoOutput(true);
-
-           
+    
+             
             System.out.println(con.toString());
             int status = con.getResponseCode();
             System.out.println(con.getHeaderField("Access-Control-Allow-Origin"));
@@ -79,18 +122,14 @@ URL url = null;
             while ((inputLine = in.readLine()) != null) {
                 content.append(inputLine);
             }
-            System.out.println("T OUU");
-            System.out.println(content.toString());
-            
-           // java.lang.reflect.Type collectionType = new TypeToken<Collection<WeatherPojo>>(){}.getType();
-           // Collection<WeatherPojo> enums = g.fromJson(content.toString(), collectionType);
-             
-          // pj = g.fromJson(content.toString(), WeatherPojo.class);
-            
-           // System.out.println(pj.getCoord().toString());
+         
            
             ObjectMapper objectMapper = new ObjectMapper();
+        try {
             pj = objectMapper.readValue(content.toString(), WeatherPojo.class);
+        } catch (IOException ex) {
+            Logger.getLogger(FtnController.class.getName()).log(Level.SEVERE, null, ex);
+        }
             
             System.out.println(pj.getMain().getTemp());
                     double celsius = Double.parseDouble(pj.getMain().getTemp());
@@ -111,9 +150,7 @@ URL url = null;
                      pj.getMain().setTemp_min(Integer.toString(degresMin));
                      Gson g = new Gson();
                      data = g.toJson(pj);
-                     System.out.println(g.toJson(pj));
-                     System.out.println("ici");
-                     System.out.println(con.getHeaderField("Access-Control-Allow-Methods"));
+                     
                      
                      
             // data = pj.getMain().getTemp();
@@ -121,20 +158,14 @@ URL url = null;
             
             in.close();
             con.disconnect();
-           
-         //   data = content.toString();
-            
-            
-            System.out.println("LATITUDE!!!!!!!");
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-            System.out.println("nani");
-        } catch (IOException e) {
-            e.printStackTrace();
-            System.out.println("wtff");
-        }
-     
     
-return data;
+    
+    
+    return data;
+    
     }
+    
+    
 }
+
+

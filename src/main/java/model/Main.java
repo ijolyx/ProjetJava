@@ -20,6 +20,10 @@ public class Main
     private String temp_min;
 
     private String temp;
+    
+    private String sea_level;
+    
+    private String grnd_level;
 
     public String getHumidity ()
     {
@@ -75,5 +79,33 @@ public class Main
     public String toString()
     {
         return "ClassPojo [humidity = "+humidity+", pressure = "+pressure+", temp_max = "+temp_max+", temp_min = "+temp_min+", temp = "+temp+"]";
+    }
+
+    /**
+     * @return the sea_level
+     */
+    public String getSea_level() {
+        return sea_level;
+    }
+
+    /**
+     * @param sea_level the sea_level to set
+     */
+    public void setSea_level(String sea_level) {
+        this.sea_level = sea_level;
+    }
+
+    /**
+     * @return the grnd_level
+     */
+    public String getGrnd_level() {
+        return grnd_level;
+    }
+
+    /**
+     * @param grnd_level the grnd_level to set
+     */
+    public void setGrnd_level(String grnd_level) {
+        this.grnd_level = grnd_level;
     }
 }
