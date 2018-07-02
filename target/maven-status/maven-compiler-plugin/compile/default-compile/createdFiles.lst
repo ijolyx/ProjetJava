@@ -2,8 +2,8 @@ controllerMain\FtnController.class
 model\Main.class
 model\Coord.class
 model\Wind.class
-CORSFilter.class
 model\WeatherPojo.class
 model\Clouds.class
 model\Sys.class
+CorsFilter.class
 model\Weather.class

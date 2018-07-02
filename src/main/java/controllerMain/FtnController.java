@@ -55,6 +55,7 @@ URL url = null;
             con = (HttpURLConnection) url.openConnection();
             con.setDoInput(true);
             con.setRequestMethod("GET");
+            
          //   con.addRequestProperty("TRN-Api-Key", "e467882d-19ea-48c0-a588-0c8fb687927c");
             
             
@@ -64,9 +65,11 @@ URL url = null;
            
             System.out.println(con.toString());
             int status = con.getResponseCode();
-            System.out.println(con.getHeaderField("Host"));
+            System.out.println(con.getHeaderField("Access-Control-Allow-Origin"));
+            System.out.println(con.getHeaderField("Access-Control-Allow-Methods"));
             System.out.println(con.getResponseMessage());
             System.out.println(status);
+            
 
            
              BufferedReader in = new BufferedReader(
@@ -110,7 +113,7 @@ URL url = null;
                      data = g.toJson(pj);
                      System.out.println(g.toJson(pj));
                      System.out.println("ici");
-                     
+                     System.out.println(con.getHeaderField("Access-Control-Allow-Methods"));
                      
                      
             // data = pj.getMain().getTemp();
