@@ -25,6 +25,7 @@ public class WeatherPojo
     private int id;
     private String name;
     private int cod;
+    private Rain rain;
     
     
 
@@ -200,5 +201,19 @@ public class WeatherPojo
      */
     public void setCod(int cod) {
         this.cod = cod;
+    }
+
+    /**
+     * @return the rain
+     */
+    public Rain getRain() {
+        return rain;
+    }
+
+    /**
+     * @param rain the rain to set
+     */
+    public void setRain(Rain rain) {
+        this.rain = rain;
     }
 }
